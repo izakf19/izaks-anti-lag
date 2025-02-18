@@ -1,5 +1,4 @@
 for _, obj in pairs(workspace:GetDescendants()) do
     if obj:IsA("BasePart") and string.lower(obj.Name):find("gradientdonut") then
-        obj:Destroy()
-    end
+
 end
